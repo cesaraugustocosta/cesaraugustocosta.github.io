@@ -30,3 +30,17 @@ header h1, a{
 header h1:hover, a:hover{
     color: #fff; 
  }
+
+ footer{
+    background-color: #222;
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ footer span{
+    font-size: 0.8em;
+    font-weight: 200;
+ }
