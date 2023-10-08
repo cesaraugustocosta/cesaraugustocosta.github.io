@@ -3,75 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <!--CSS-->
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <!--Fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
-    <!--Icones-->
-    <script src="https://kit.fontawesome.com/040f2e3981.js" crossorigin="anonymous" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
+    <title>Cesar Augusto</title>
 </head>
 <body>
-    <header>
-        <h1>I´m Cesar</h1>
-        <nav>
-            <a href="https://github.com/cesaraugustocosta" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/cesar-a-da-costa-ba905177/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/cesar-a-da-costa-ba905177/" target="_blank">
-             <i class="fa-brands fa-instagram"></i>
-            </a>
-            
-        </nav>
-    </header>
-    <main>        
-        <section class="main-content">            
-            <article class="text">
-                <h2>🙋‍♂️ Sobre Mim</h2>
-                <p>Olá, meu nome é Cesar Augusto (●'◡'●), tenho 47 anos e sou do Rio Grande do Sul, Brasil .<p>👨‍🏫 Professor de Informática Educacional no NEI Menino Jesus, em Rancho Queimado-SC. Apaixonado por desenvolvimento de softwares, estudo programação desde 2014, com ênfase em desenvolvimento web💻.</p> 
-            </article>
+    <div class="caixa-principal">
+        <header>
+            <nav>
+                <h2 class="portfolio">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a class="link-menu" href="#home">Home</a></li>
+                    <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                    <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                    <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+                </ul>
+            </nav>        
+        </header>        
+        <div class="meu-nome">
+            <div>
+                <h1>Cesar <span>Augusto</span></h1>
+                <h3>Programador Web</h3>
+            </div>            
+            <img src="img/background.png">
+        </div>
+    </div>
+    <section id="sobre">
+        <img src="./img/logo.jpg">
+        <div>
+            <h2>Sobre Mim</h2>
+            <p>Eu sou um programador Web, tenho experiência e  conhecimento criando aplicações com HTML, CSS, JavaScript e PHP. Formado em Sistemas de Informação pela Urcamp-RS e pós-graduado em Ciências de dados e Big Data Analitycs.</p>
+            <button>Entre em Contato</button>
+        </div>
+    </section>
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
 
-            <aside class="techs">
-                <h2>💻 Tecnologias</h2>
-                <div class="cards-container">
-                    <div class="card">
-                        <img src="imagens/tecs/2305941.png" alt="logo html5"></img>
-                    </div>
-                    <div class="card">
-                        <img src="imagens/tecs/2305903.png" alt="logo css3"></img>
-                    </div>
-                    <div class="card">
-                        <img src="imagens/tecs/2305963.png" alt="logo JS"></img>
-                    </div>
-                    <div class="card">
-                        <img src="imagens/tecs/2305992.png" alt="logo PHP"></img>
-                        
-                    </div>
-                </div>
-            </aside>  
-            <p style="margin-top: 20px;">Contato: cesaraug76@hotmail.com</p>                  
-        </section>
-        <figure>
-            <img src="imagens/perfil.jpg" alt="imagem de Cesar Augusto"></img>
-            <figcaption>Cesar Augusto</figcaption>
-        </figure>
-       
-    </main>  
-    
-    <footer>
-        <span>
-            &copy; Cesar Augusto - Todos os direitos reservados - 2023
-        </span>
-        
+        <div class="card-projetos">
+            <div class="card">
+                <img src="./img/logo2.png">
+                <h5>Argos Segurança</h5>
+                <p>Site criado para uma empresa especializada no ramo de segurança patrimonial, oferecendo soluções em segurança comercial e residencial com excelente qualidade.</p>
+                <a href="https://https://www.argosrs.com.br/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/imc.png">
+                <h5>Cálculo do IMC</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="calculadora_imc.html" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/clima.png">
+                <h5>App Clima</h5>
+                <p>App criado para consultar o clima de uma cidade, utilizando a com OpenWeather API - Projeto de JavaScript com API.</p>
+                <a href="clima.html" target="_blank">Ver Projeto</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>Cesar Augusto</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/cesar-a-da-costa-ba905177/" target="_blank">
+                <img src="./img/197585_ln_modern_linkedin_in_circular_icon.png">
+            </a>
+
+            <a href="tel:+5548991291748">
+                <img src="./img/6584517_logo_media_social_whatsapp_icon.png">
+
+            </a>
+        </div>
+
     </footer>
-     
 </body>
 </html>
